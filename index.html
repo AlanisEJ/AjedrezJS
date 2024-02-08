@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajedrez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game">
+    <div class="board">
+    </div>
+    </div>
+    <div class="controls">
+            <label for="board-color">Color del tablero:</label>
+            <input type="color" id="board-color" value="#fff">
+            <label for="queen-image">Imagen de reina:</label>
+            <select id="queen-image">
+                <option value="../ReinaB.png">Reina 1</option>
+                <option value="../ReinaN.png">Reina 2</option>
+                <option value="queen3.png">Reina 3</option>
+            </select>
+        <button class="botonH" id="lockBtn">Bloquear Celdas</button>
+        <button class="botonH" id="solveBtn">Mostrar Soluciones</button>
+        <button class="botonH" id="resetBtn">Reiniciar Juego</button>
+
+        </div>
+
+    <script src="funciones.js"></script> <!-- Enlace al archivo JavaScript -->
+</body>
+</html>
+
